@@ -1,0 +1,31 @@
+{
+  "name": "node_test_frameworks",
+  "version": "0.0.1",
+  "description": "this for test framework in nodejs",
+  "main": "lib/app.js",
+  "scripts": {
+    "test": "npm run jshint & mocha",
+    "jshint": "jshint app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lichunqiang/node_test_frameworks.git"
+  },
+  "keywords": [
+    "app",
+    "test",
+    "mocha",
+    "should"
+  ],
+  "author": "light",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lichunqiang/node_test_frameworks/issues"
+  },
+  "homepage": "https://github.com/lichunqiang/node_test_frameworks",
+  "devDependencies": {
+    "jshint": "^2.5.2",
+    "mocha": "^1.20.1",
+    "should": "^4.0.4"
+  }
+}
