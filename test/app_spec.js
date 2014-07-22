@@ -27,7 +27,6 @@ describe('app.pad function', function(){
 describe('app.ls function', function(){
 
 	it('should list dir files', function(done){
-		console.log('teste')
 		app.ls(function(){
 			console.log(arguments);
 		});

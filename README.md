@@ -9,10 +9,13 @@ NodeJS test related
 
 ```
 "scripts": {
-	"test": "npm run jshint & mocha",
+	"test": "npm run jshint & mocha -R spec",
 	"jshint": "jshint app.js"
 }
 ```
+
+>  `mocha -R spec` 指定`reporter`
+
 
 当执行`npm test` 时会执行`package.json`中`scripts`的`test`中的命令.
 

@@ -4,8 +4,8 @@
   "description": "this for test framework in nodejs",
   "main": "lib/app.js",
   "scripts": {
-    "test": "npm run jshint & mocha",
-    "jshint": "jshint app.js"
+    "test": "npm run jshint & mocha -R spec",
+    "jshint": "jshint ./lib/app.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/lichunqiang/node_test_frameworks",
   "devDependencies": {
+    "chai": "^1.9.1",
     "jshint": "^2.5.2",
     "mocha": "^1.20.1",
     "should": "^4.0.4"
