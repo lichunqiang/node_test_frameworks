@@ -5,7 +5,8 @@
   "main": "lib/app.js",
   "scripts": {
     "test": "npm run jshint & mocha -R spec",
-    "jshint": "jshint ./lib/app.js"
+    "jshint": "jshint ./lib/app.js",
+    "tape": "tape test/app_tape.js | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,8 @@
     "chai": "^1.9.1",
     "jshint": "^2.5.2",
     "mocha": "^1.20.1",
-    "should": "^4.0.4"
+    "should": "^4.0.4",
+    "tap-spec": "^0.2.0",
+    "tape": "^2.13.4"
   }
 }
